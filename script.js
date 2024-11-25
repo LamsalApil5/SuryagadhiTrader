@@ -5,21 +5,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactForm = document.getElementById('contactForm');
 
     const bikes = [
-        { name: 'Mountain Bike', price: 599, image: './Image/bike.png' },
-        { name: 'Road Bike', price: 799, image: 'https://via.placeholder.com/300x200.png?text=Road+Bike' },
-        { name: 'City Bike', price: 449, image: 'https://via.placeholder.com/300x200.png?text=City+Bike' },
+        { name: 'Apache RTR 160 4V', price: 250000, image: './Image/Bike/Apache RTR 160 4V - 250000.webp' },
+        { name: 'Bajaj dominar 400', price: 650000, image: './Image/Bike/bajaj-dominar-400-1580628763-921.jpg' },
+        { name: 'Bajaj Platina ES', price: 200000, image: './Image/Bike/Bajaj-Platina-ES - 200000.jpg' },
+        { name: 'Bajaj Pulsar 125', price: 201000, image: './Image/Bike/Bajaj-Pulsar-125 - 201000.jpg' },
+        { name: 'CFMOTO 650NK', price: 300000, image: './Image/Bike/CFMOTO-650NK 300000.jpg' },
+        { name: 'Honda XR 190L ', price: 680000, image: './Image/Bike/Honda-XR-190L 680000.jpg' },
+        { name: 'Royal Enfield Classic 350', price: 520000, image: './Image/Bike/Royal Enfield Classic 350 - 520000.jpg' },
     ];
 
     const scooters = [
-        { name: 'Electric Scooter', price: 399, image: 'https://via.placeholder.com/300x200.png?text=Electric+Scooter' },
-        { name: 'Kick Scooter', price: 129, image: 'https://via.placeholder.com/300x200.png?text=Kick+Scooter' },
-        { name: 'Mobility Scooter', price: 899, image: 'https://via.placeholder.com/300x200.png?text=Mobility+Scooter' },
+        { name: 'Aprilia SR 125', price: 175000, image: './Image/Scooter/Aprilia-SR-125 - 175000.jpg' },
+        { name: 'Aprilia SR 150', price: 230000, image: './Image/Scooter/Aprilia-SR-150 - 205000.jpg' },
+        { name: 'Honda-Dio-125-STD', price: 315000, image: './Image/Scooter/Honda-Dio-125-STD 315900.webp' },
+        { name: 'TVS iqube', price: 250000, image: './Image/Scooter/tvs-iqube-red-814d6a69-250000.png' },
+        { name: 'Honda Aviator', price: 235000, image: './Image/Scooter/honda_aviator 235000.jpg' },
+        { name: 'TVS-Ntorq-125', price: 280000, image: './Image/Scooter/TVS-Ntorq-125-280000.jpg' },
     ];
 
     const parts = [
-        { name: 'Bike Chain', price: 29, image: 'https://via.placeholder.com/300x200.png?text=Bike+Chain' },
-        { name: 'Scooter Wheel', price: 49, image: 'https://via.placeholder.com/300x200.png?text=Scooter+Wheel' },
-        { name: 'Bike Pedals', price: 39, image: './Image/parts.jpg' },
+        { name: 'Carburetor', price: 4000, image: './Image/Parts/Carburetor - 4000.webp' },
+        { name: 'Diamond chain kit', price: 3500, image: './Image/Parts/Diamondchainkitpulsar220 - 3500.webp' },
+        { name: 'Disc plate', price: 6000, image: './Image/Parts/Disc plate - 6000.webp' },
+        { name: 'Double Waterproof bike raincoat', price: 900, image: './Image/Parts/Double Waterproof bike raincoat - 900.webp' },
+        { name: 'Genuine Clutch Assebly for Zixxer', price: 2500, image: './Image/Parts/Genuine Clutch Assebly for Zixxer - 2050.webp' },
+        { name: 'Grip tyre', price: 3450, image: './Image/Parts/Grip tyre - 3450.webp' },
+        { name: 'Headlight', price: 3100, image: './Image/Parts/Headlight - 3100.webp' },
+        { name: 'Led Indicator side light', price: 700, image: './Image/Parts/ledindicatorsidelight - 700.webp' },
+        { name: 'Thumb Light Visor', price: 700, image: './Image/Parts/thumb-light_visor - 1500.webp' },
     ];
 
     function createProductCard(product) {
